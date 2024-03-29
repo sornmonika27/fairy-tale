@@ -1,6 +1,6 @@
 const API_URL = "https://fairy-tale-h8ekmey95-siemhong.vercel.app/";
 
-// GET /api/fairytales        
+// GET /api/fairytales
 
 
 
@@ -69,4 +69,19 @@ async function displayHomePageContent() {
 }
 // Call displayHomePageContent function when the page loads
 window.onload = displayHomePageContent;
+
+
+
+document.getElementById("navbar").innerHTML += `
+
+
+    <a href="/components/category/category.html?category=daily trends">${menu.item[0]}</a>
+    <a href="/components/category/category.html?category=development tools">${menu.item[1]}</a>
+    <a href="/components/category/category.html?category=Tutorials">${menu.item[2]}</a>
+</div>
+`;
+
+
+
+
 

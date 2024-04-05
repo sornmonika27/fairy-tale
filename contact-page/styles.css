@@ -1,0 +1,134 @@
+body{
+    background-image: url(pngtree-childrens-day-childrens-pink-image_15548391.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    margin-top: 140PX;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.left{
+    width: 50%;
+    height: 65%;
+    background-color: rgba(105, 105, 105, 0.604);
+    border-radius: 40px;
+}
+.right{
+    width: 50%;
+    height: 65%;
+    background-color: rgba(105, 105, 105, 0.604);
+    margin-left: 10%;
+    border-radius: 40px;
+}
+.left h1{
+    margin-left: 30%;
+    margin-top: 30px;
+    font-size: 40px;
+
+}
+
+
+
+
+.number h2{
+    margin-top: 50px;
+    margin-left: 29%;
+}
+.number i{
+    font-size: 45px;
+    margin-left: 7%;
+    margin-top: 20px;
+}
+.number h3{
+    margin-top: -20%;
+    margin-left: 80px;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.address h2{
+    margin-left: 38%;
+    margin-top: 30px;
+}
+.address i{
+    font-size: 45px;
+    margin-left: 6%;
+    margin-top: 20px;
+}
+.address h3{
+    margin-top: -8%;
+    margin-left: 70px;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.gmail h2{
+    margin-top: 7%;
+    margin-left: 40%;
+}
+.gmail i{
+    font-size: 50px;
+    margin-left: 5%;
+}
+.gmail h3{
+    margin-top: -15%;
+    margin-left: 27%;
+    font-family: "Risque", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.right h1{
+    margin-left: 35%;
+    margin-top:20px;
+    background: linear-gradient(60deg,#FA8501,#AF09F5,#3618EE,#7A6666);
+    -webkit-background-clip :text;
+    color: transparent;
+    font-size: 45px;
+}
+.right h2{
+    margin-top: 40px;
+    margin-left: 3%;
+}
+.form-floating mb-3{
+    width: 550px;
+    margin-left: 3%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .left, .right {
+        width: 90%; 
+        margin: 5% auto; 
+    }
+
+    .right {
+        margin-top: 5%; 
+    }
+
+    .left h1 {
+        margin-left: 0; 
+        text-align: center; 
+        margin-top: 10px; 
+        font-size: 5vw; 
+    }
+}
+@media screen and (max-width: 768px) {
+    .form-floating.mb-3 {
+        width: 90%; 
+        margin-left: 5%; 
+    }
+}

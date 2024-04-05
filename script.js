@@ -40,6 +40,7 @@ async function displayHomePageContent() {
     topFairyTaleContainer.innerHTML = `
           <div class="card">
             <div class="card-body">
+            <a href="../../Detail-page/index.html?id=${data[i].id}" class="card-title"style="font-size:20px;">${data[i].title}</a>
               <h5 class="card-title">${topFairyTale.title}</h5>
               <p class="card-text">Age Group: ${topFairyTale.ageGroup}</p>
               <audio controls>

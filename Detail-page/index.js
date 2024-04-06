@@ -16,7 +16,7 @@ function fetchData(){
                 card.innerHTML += `
                     <div class="img1">
                     <div class="name">
-                        <h1 style="margin-left:42%;">${data[i].title}</h1>
+                        <h1 style="margin-left:40%;">${data[i].title}</h1>
                         <h5>${data[i].author}</h5>
                         <img src="${data[i].image}"
                         <div class="text-1">

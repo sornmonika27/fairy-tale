@@ -15,17 +15,18 @@ body{
     font-family: "Risque", serif;
     font-weight: 400;
     font-style: normal;
+    /* margin-right: 100px; */
 }
 .left{
     width: 50%;
     height: 65%;
-    background-color: rgba(105, 105, 105, 0.604);
+    background-color: rgba(243, 239, 239, 0.774);
     border-radius: 40px;
 }
 .right{
     width: 50%;
     height: 65%;
-    background-color: rgba(105, 105, 105, 0.604);
+    background-color: rgba(243, 239, 239, 0.774);
     margin-left: 10%;
     border-radius: 40px;
 }

@@ -29,7 +29,7 @@ function fetchData(){
                 </div>
                 <div class="col-md-8">
                 <div class="card-body" style="margin-top:20px;">
-                    <a href="../../Detail-page/index.html?id=${data[i].id}" style="text-decoration: none; font-size: 25px;" class="card-title">${data[i].title}</a >
+                    <a href="../../Detail-page/index.html?id=${data[i].id}" style="text-decoration: none; font-size: 26px;" class="card-title">${data[i].title}</a >
                     <p class="card-text" style="color:#F60E8C;font-size:18px; margin-top:15px;">${data[i].summary}</p>
                     <p class="author">${data[i].author}</p>
                     <p class="created_at">${data[i].created_at}</p>

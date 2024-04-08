@@ -22,7 +22,7 @@ function fetchData(){
                 <div class="description">
                     <h1 style="display:flex;  justify-content: center; align-items: center; font-size:55px;">${data[i].title}</h1>
                     <h5 style="display:flex;  justify-content: center; align-items: center; font-size:20px; margin-top:30px; margin-bottom:50px;">${data[i].author}</h5>
-                    <img style="display:flex;  justify-content: center; align-items: center; margin:auto; " src="${data[i].image}"></img>
+                    <img style="display:flex;  justify-content: center; align-items: center; margin:auto; width:70%; height:800px;" src="${data[i].image}"></img>
 
                     <p style="font-size:25px;display:flex;  justify-content: center; align-items: center; margin:auto; width:80%; margin-top:50px;">
                     ${data[i].description} <br></br>
@@ -49,6 +49,10 @@ function fetchData(){
     return fetchData;
 };
 fetchData ();
+
+
+
+
 
 
 
